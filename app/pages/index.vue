@@ -1,19 +1,19 @@
 <template>
   <div>
-    <!-- ƒƒCƒ“‰æ‘œ -->
+    <!-- ãƒ¡ã‚¤ãƒ³ç”»åƒ -->
     <img
       :src="response.details.ext_1.url"
       :alt="response.details.ext_1.desc"
       width="800"
     >
 
-    <!-- ‹Æ–±Ð‰î -->
+    <!-- æ¥­å‹™ç´¹ä»‹ -->
     <h1>{{ response.details.ext_2 }}</h1>
 
-    <!-- ƒRƒ“ƒeƒ“ƒcà–¾ -->
+    <!-- ã‚³ãƒ³ãƒ†ãƒ³ãƒ„èª¬æ˜Ž -->
     <p>{{ response.details.ext_3 }}</p>
 
-    <!-- ƒT[ƒrƒXî•ñ -->
+    <!-- ã‚µãƒ¼ãƒ“ã‚¹æƒ…å ± -->
     <h2>{{ response.details.ext_4.ext_4 }}</h2>
     <p>{{ response.details.ext_4.ext_5 }}</p>
   </div>
